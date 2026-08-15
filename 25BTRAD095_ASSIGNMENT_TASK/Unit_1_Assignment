@@ -1,0 +1,90 @@
+#TASK 1:
+print("Saujanyaa\nAIDE\nJAIN University\n")
+
+#TASK 2:
+for i in range(0,3):
+    for j in range(0,7):
+        print("*", end="")
+    print()
+print()
+
+#TASK 3:
+print("Python is Easy\n")
+
+#TASK 4:
+for i in range(1,6):
+    for j in range(1,i+1):
+        print(j, end="")
+    print()
+print()
+
+#TASK 5:
+print("Computer\nScience\nEngineering\n")
+
+#TASK 6:
+print("Name\tAge\tCity\n")
+
+#TASK 7:
+#Single-line comment
+
+#TASK 8:
+"""Multi
+line
+comments"""
+
+#TASK 9:
+#Comment1
+print("Comment1")
+#Comment2
+print("Comment2")
+#Comment3
+print("Comment3\n")
+
+#TASK 10:
+name = "Saujanyaa"
+print(name,"\n")
+
+#TASK 11:
+x=10
+y=20
+z=30
+print(f"{x}\n{y}\n{z}\n")
+
+#TASK 12:
+s = "100"
+n = int(s)
+print(f"n = {n}\n")
+print(f"Type of n = {type(n)}\n")
+
+#TASK 13:
+a = 25
+b = float(a)
+print(f"{b}, {type(b)}\n")
+
+#TASK 14:
+age = int(input("Enter age : "))
+print(age,"\n")
+
+#TASK 15:
+a = int(input("First number : "))
+b = int(input("Seconf number : "))
+print(f"a + b = {a+b}\n")
+
+#TASK 16:
+name = input("Name : ")
+age = int(input("Age : "))
+cgpa = float(input("CGPA : "))
+print(f"My name is {name}. I am {age} years old and my CGPA is {cgpa}.\n")
+
+#TASK 17:
+c = float(input("Temperature in celcius : "))
+f = (c*9/5)+32
+print(f"Temperature in Fahrenheit : {f:.2f}\n")
+
+#TASK 18:
+x = int(input("Enter an integer : "))
+if x%2 == 0:
+    print(x, "is Even")
+else:
+    print(x, "is Odd")
+
